@@ -1,0 +1,96 @@
+/*Página Principal*/
+body{
+    background-color: rgb(255, 255, 155);
+}
+h1, h5, h4, h2{
+    text-align: center;
+    color: rgb(138, 36, 36);
+}
+img{
+    display: block;
+    margin: auto;
+}
+p, ul{
+    color: rgb(46, 17, 17);
+}
+nav{
+    text-align: center;
+}
+a{
+  color: rgb(85, 21, 21);  
+}
+/*Menu*/
+#bodyindex{
+    background-color: burlywood;
+    text-align: center;
+    border-width: 190px;
+    margin: 10px;
+    border-color: brown;
+}
+.menu{
+    list-style: none;
+    border: none;
+    padding: 0;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    border: none;
+}
+.menu li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 155);
+    text-decoration: none;
+    color: rgb(255, 255, 176)
+    border-radius 5px; 
+}
+.menu li a:hover{
+    background-color: rgb(240, 240, 150);
+}
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    background-color: beige;
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+}
+header{
+    background-color: rgb(117, 78, 78);
+    border: none;
+}
+.titulo{
+    color: rgb(255, 255, 176);
+}
+nav{
+    border: none;
+}
+/*botao final*/
+.botao{
+    background-color: #703c3c;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 20px auto;
+}
+.botao a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+/*tabelas*/
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}

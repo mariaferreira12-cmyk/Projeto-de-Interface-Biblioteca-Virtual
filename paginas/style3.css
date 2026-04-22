@@ -1,0 +1,28 @@
+.livros {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.livro {
+  text-align: center;
+}
+
+.livro img {
+  width: 150px;
+  height: auto;
+}
+h1, h3, h4 {
+    text-align: center;
+    color: rgb(255, 255, 155);
+}
+header{
+    background-color: rgb(117, 78, 78);
+}
+body{
+    background-color: rgb(255, 255, 155);
+    border: 30px solid rgb(255, 255, 155)
+}
+a{
+    color: rgb(117, 78, 78);
+}

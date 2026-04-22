@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+     <link rel="stylesheet" href="./style2.css">
+     <link rel="icon" href="../icones/book.png" type="image/png">
+</head>
+<header>
+    <br>
+    <br>
+    <h2>Faça seu cadatro para acessar nossa biblioteca!</h2>
+    <br>
+    <br>
+</header>
+<body>
+    <form action="xx.sql" method="post">
+    <fieldset>
+        <p>Nome: <input type="text" placeholder="Escreva seu nome completo" required></p>
+        <p>Data de Nacimento: <input type="date" required></p>
+        <p>Telefone: <input type="tel" placeholder="(00)00000-0000" required></p>
+        <p>Email: <input type="email" placeholder="Insira seu email" required></p>
+        <p>Senha: <input type="password" maxlength="15" required></p>
+        <p>Preferências de estilos literários:</p>
+            <input type="checkbox" name="Estilos literarios">Romance<br>
+            <input type="checkbox" name="Estilos literarios">Suspense<br>
+            <input type="checkbox" name="Estilos literarios">Terror<br>
+            <input type="checkbox" name="Estilos literarios">Clássicos<br>
+            <input type="checkbox" name="Estilos literarios">Autoajuda<br>
+            <input type="checkbox" name="Estilos literarios">Educação<br>
+            <input type="checkbox" name="Estilos literarios">História<br>
+            <input type="checkbox" name="Estilos literarios">Ficção<br>
+            <input type="checkbox" name="Estilos literarios">Tecnologia<br>
+        <p>Frenquência de leitura:</p>
+            <input type="radio" name="frequência">Todos os dias<br>
+            <input type="radio" name="frequência">Algumas vezes na semana<br>
+            <input type="radio" name="frequência">Raramente<br>
+        <br>
+        <hr>
+        <br>
+        <button type="submit" class="btn">Enviar</button>
+        <button type="reset" class="btn">Apagar tudo</button>
+    </form>
+</body>
+</html>

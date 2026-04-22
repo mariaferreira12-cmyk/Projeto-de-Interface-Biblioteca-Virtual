@@ -1,0 +1,61 @@
+.titulo, h5{
+    text-align: center;
+    color: rgb(255, 255, 155);
+}
+header{
+    background-color:rgb(117, 78, 78);
+}
+body{
+    background-color: rgb(255, 255, 155);
+    border: 30px solid rgb(255, 255, 155);
+}
+nav {
+    background-color: rgb(117, 78, 78);
+    padding: 15px 0;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+.menu a {
+    text-decoration: none;
+    color: rgb(117, 78, 78);
+    background-color: rgb(255, 255, 155);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+.menu a:hover {
+    background-color: rgb(255, 255, 155);
+    transform: translateY(-2px);
+}
+.botao{
+    background-color: #703c3c;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 20px auto;
+}
+.botao a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+}
+h2, h5 {
+    color: rgb(117, 78, 78);
+    text-align: center;
+}
+.imagem {
+    text-align: center;
+}
